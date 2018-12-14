@@ -28,6 +28,9 @@ module.exports = {
 ```
 
 2. import result data in entry point file
+``` shell
+npm install vue-svgicon
+```
 ``` js
 import * as svgicon from 'vue-svgicon'
 import './assets/icon'
