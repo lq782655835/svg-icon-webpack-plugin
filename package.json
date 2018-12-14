@@ -1,6 +1,6 @@
 {
   "name": "svg-icon-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "svg-icon solution for webpack plugin",
   "main": "index.js",
   "scripts": {
