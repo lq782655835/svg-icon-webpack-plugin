@@ -6,10 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lq782655835/svg-icon-webpack-plugin"
+  },
+  "homepage": "https://github.com/lq782655835/svg-icon-webpack-plugin#readme",
   "keywords": [
+    "webpack",
+    "upload",
+    "cdn"
+  ],
+  "keywords": [
+    "webpack",
     "svg",
     "icon"
   ],
   "author": "springleo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue-svgicon": "^3.2.2"
+  }
 }
