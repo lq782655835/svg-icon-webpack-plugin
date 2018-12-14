@@ -3,15 +3,15 @@ const SvgIconPlugin = require('../lib/index')
 
 module.exports = {
     mode: 'development',
-    entry: './index.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js'
     },
-    module: {
-        rules: [
-        //   { test: /\.txt$/, use: 'raw-loader' }
-        ]
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        compress: true,
+        port: 9000
     },
     plugins: [
         new SvgIconPlugin()
