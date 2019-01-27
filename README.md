@@ -5,12 +5,12 @@ Auto convert svg to icon component data by webpack plugin。It's base on [vue-sv
 ## Install
 
 ``` shell
-npm install svg-icon-webpack-plugin --save-dev
+npm install vue-svgicon svg-icon-webpack-plugin --save-dev
 ```
 
 ## Usage
 
-1. Configure webpack plugin。In vue.config.js
+1. Configure webpack plugin In vue.config.js
 ``` js
 const SvgIconWebpackPlugin = require('svg-icon-webpack-plugin')
 
@@ -28,13 +28,10 @@ module.exports = {
 ```
 
 2. import result data in entry point file
-``` shell
-npm install vue-svgicon
-```
 ``` js
 import * as svgicon from 'vue-svgicon'
-import './assets/icon'
 Vue.use(svgicon)
+import './assets/icon'
 ```
 
 3. use svgicon component in vue file

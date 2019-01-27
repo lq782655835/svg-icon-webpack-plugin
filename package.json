@@ -4,8 +4,7 @@
   "description": "svg-icon solution for webpack plugin",
   "main": "index.js",
   "scripts": {
-    "build": "sh deploy.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "github": "sh deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -14,17 +13,13 @@
   "homepage": "https://github.com/lq782655835/svg-icon-webpack-plugin#readme",
   "keywords": [
     "webpack",
-    "upload",
-    "cdn"
-  ],
-  "keywords": [
-    "webpack",
     "svg",
     "icon"
   ],
   "author": "springleo",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.1",
     "vue-svgicon": "^3.2.2"
   }
 }
