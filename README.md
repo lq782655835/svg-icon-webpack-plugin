@@ -31,6 +31,8 @@ module.exports = {
 ``` js
 import * as svgicon from 'vue-svgicon'
 Vue.use(svgicon)
+
+// import all icon from webpack plugin build
 import './assets/icon'
 ```
 
